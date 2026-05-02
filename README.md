@@ -4,7 +4,7 @@ FlowBoard is a full-stack SaaS-style team task manager built for assignment subm
 
 Live URL: `https://your-flowboard-app-url`
 
-GitHub Repo: `https://github.com/your-username/flowboard`
+GitHub Repo: `https://github.com/harshitha-k03/flowboard-team-task-manager`
 
 ## Overview
 
