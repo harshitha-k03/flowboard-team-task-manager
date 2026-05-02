@@ -1,0 +1,51 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" rx="48" fill="#020617"/>
+  <g opacity="0.8" filter="url(#blurA)">
+    <circle cx="392" cy="137" r="220" fill="#2A8CFF"/>
+  </g>
+  <g opacity="0.35" filter="url(#blurB)">
+    <circle cx="1140" cy="758" r="240" fill="#10B981"/>
+  </g>
+  <rect x="72" y="72" width="1296" height="756" rx="38" fill="#0F172A" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="108" y="108" width="1224" height="684" rx="30" fill="#111827" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="152" cy="153" r="8" fill="#F87171"/>
+  <circle cx="182" cy="153" r="8" fill="#FBBF24"/>
+  <circle cx="212" cy="153" r="8" fill="#34D399"/>
+  <rect x="136" y="192" width="328" height="140" rx="26" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="500" y="192" width="328" height="140" rx="26" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="864" y="192" width="328" height="140" rx="26" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="1228" y="192" width="68" height="140" rx="26" fill="rgba(248,113,113,0.12)" stroke="rgba(248,113,113,0.18)"/>
+  <rect x="136" y="372" width="340" height="356" rx="30" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="508" y="372" width="340" height="356" rx="30" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="880" y="372" width="340" height="356" rx="30" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="168" y="420" width="276" height="92" rx="24" fill="#0B1220" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="168" y="532" width="276" height="92" rx="24" fill="#0B1220" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="540" y="420" width="276" height="92" rx="24" fill="#0B1220" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="540" y="532" width="276" height="92" rx="24" fill="#0B1220" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="912" y="420" width="276" height="92" rx="24" fill="#0B1220" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="912" y="532" width="276" height="92" rx="24" fill="#0B1220" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="168" y="232" width="112" height="12" rx="6" fill="#93C5FD"/>
+  <rect x="168" y="258" width="82" height="42" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="532" y="232" width="132" height="12" rx="6" fill="#93C5FD"/>
+  <rect x="532" y="258" width="98" height="42" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="896" y="232" width="96" height="12" rx="6" fill="#93C5FD"/>
+  <rect x="896" y="258" width="114" height="42" rx="16" fill="rgba(255,255,255,0.06)"/>
+  <rect x="168" y="444" width="142" height="10" rx="5" fill="#E2E8F0"/>
+  <rect x="168" y="466" width="194" height="8" rx="4" fill="#64748B"/>
+  <rect x="540" y="444" width="154" height="10" rx="5" fill="#E2E8F0"/>
+  <rect x="540" y="466" width="168" height="8" rx="4" fill="#64748B"/>
+  <rect x="912" y="444" width="130" height="10" rx="5" fill="#E2E8F0"/>
+  <rect x="912" y="466" width="184" height="8" rx="4" fill="#64748B"/>
+  <defs>
+    <filter id="blurA" x="-28" y="-283" width="840" height="840" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_0_1"/>
+    </filter>
+    <filter id="blurB" x="600" y="218" width="1080" height="1080" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_0_1"/>
+    </filter>
+  </defs>
+</svg>

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 33% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 33% 96%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 214 95% 93%;
+    --accent-foreground: 221 83% 53%;
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+    --radius: 1rem;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 39% 14%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 39% 14%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217 33% 20%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 24% 18%;
+    --muted-foreground: 215 20% 75%;
+    --accent: 221 70% 21%;
+    --accent-foreground: 214 100% 88%;
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 24% 24%;
+    --input: 217 24% 24%;
+    --ring: 217 91% 60%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-background font-sans text-foreground antialiased;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  ::selection {
+    background: hsl(var(--primary) / 0.18);
+  }
+}
+
+@layer utilities {
+  .app-shell {
+    @apply bg-background;
+  }
+
+  .surface-card {
+    @apply rounded-[calc(var(--radius)+0.2rem)] border border-border bg-card shadow-sm;
+  }
+
+  .panel-muted {
+    @apply rounded-[calc(var(--radius)-0.1rem)] border border-border bg-secondary;
+  }
+
+  .page-heading {
+    @apply text-[2rem] font-semibold tracking-tight text-foreground sm:text-[2.25rem];
+  }
+
+  .section-heading {
+    @apply text-lg font-semibold text-foreground;
+  }
+
+  .page-subtle {
+    @apply text-sm leading-7 text-muted-foreground;
+  }
+}
+
+.dark .bg-white {
+  background-color: hsl(var(--card));
+}
+
+.dark .border-white {
+  border-color: hsl(var(--border));
+}
+
+.dark .bg-slate-50,
+.dark .bg-slate-50\/80 {
+  background-color: hsl(var(--secondary));
+}
+
+.dark .text-slate-600 {
+  color: hsl(var(--muted-foreground));
+}
+
+.dark .text-slate-300 {
+  color: hsl(var(--muted-foreground) / 0.65);
+}
+
+.dark .hover\:bg-slate-100:hover {
+  background-color: hsl(var(--secondary));
+}
